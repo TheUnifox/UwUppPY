@@ -1,0 +1,1 @@
+build and install with '''pyinstaller -p / --onefile -n UwUpp main.py''' then add the dist folder to PATH
