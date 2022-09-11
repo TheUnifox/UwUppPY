@@ -1,8 +1,8 @@
 # Building / Installing #
 ### Reccomended: ### 
-Download the [UwUpp.zip](https://github.com/TheUnifox/UwUppPY/releases/download/v0.1.1/UwUpp.zip) from [the most recent release](https://github.com/TheUnifox/UwUppPY/releases). Extract all contents to a folder of your choice. Then finally use the included install.ps1 to install UwU++. 
+Download the [UwUpp.zip](https://github.com/TheUnifox/UwUppPY/releases/download/v0.1.1/UwUpp.zip) from [the most recent release](https://github.com/TheUnifox/UwUppPY/releases). Extract all contents to a folder of your choice. Hit the windows key and type powershell, hit open as administrator on Powershell ISE. Click open, navigate to the folder containing install.ps1, and open it. Finally hit run to install UwU++! 
 ### Alternate: ### 
-Download [the source zip](https://github.com/TheUnifox/UwUppPY/archive/refs/heads/main.zip) or clone this repo using [git](https://github.com/TheUnifox/UwUppPY/edit/main/ReadMe.md#with-git) or [github desktop](https://github.com/TheUnifox/UwUppPY/edit/main/ReadMe.md#or-github-desktop). Extract all contents to a folder of your choice. Then finally use [buildAndInstall.ps1](/buildAndInstall.ps1) to build and install UwU++ from source.\
+Download [the source zip](https://github.com/TheUnifox/UwUppPY/archive/refs/heads/main.zip) or clone this repo using [git](https://github.com/TheUnifox/UwUppPY/edit/main/ReadMe.md#with-git) or [github desktop](https://github.com/TheUnifox/UwUppPY/edit/main/ReadMe.md#or-github-desktop). Extract all contents to a folder of your choice. Hit the windows key and type powershell, hit open as administrator on Powershell ISE. Click open, navigate to the folder containing [buildAndInstall.ps1](/buildAndInstall.ps1), and open it. Finally hit run to build and install UwU++ from source.\
 \
 You can now code in UwU++, and build it using ```UwUpp (your .uwu file name)```
 
