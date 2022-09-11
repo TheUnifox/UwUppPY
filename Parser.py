@@ -58,12 +58,14 @@ def parseLine(line: str):
         line = line.replace("spwit(", "split(")
         line = line.replace("wength(", "len(")
         line = line.replace("wist(", "list(")
+        line = line.replace("dwictwonwawy(", "dict(")
         line = line.replace("owe", "or")
         line = line.replace("worw()", "lower()")
         line = line.replace("stwip(", "strip(")
         line = line.replace("iwn", "in")
         line = line.replace("cwontwinwue", "continue")
         line = line.replace("appwewnd(", "append(")
+        line = line.replace("bweak", "break")
 
         if line.find("wistenInt(") != -1:
             beforep = line[0:line.find("wistenInt(")]
