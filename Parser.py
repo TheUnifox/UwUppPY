@@ -21,6 +21,11 @@ def parseLine(line: str):
     if line != "":
         line = line.replace("nuzzels(", "print(")
 
+        line = line.replace("iwmpowt", "import")
+
+        line = line.replace("twy:", "try:")
+        line = line.replace("ewxcwept:", "except:")
+
         line = line.replace("wetuwn", "    return")
 
         if line.strip().startswith("OwO *notices") or line.strip().startswith("UwU *notices") or line.strip().startswith("*notices") or line.strip().startswith("*owe notices") or line.strip().startswith("nyaa *"):
@@ -29,6 +34,7 @@ def parseLine(line: str):
 
         line = line.replace("stawp", "")
     
+        line = line.replace("awnd", "and")
         line = line.replace("nowt", "not")
         line = line.replace("newgatwive", "-")
         line = line.replace("iws", "=")
@@ -50,32 +56,39 @@ def parseLine(line: str):
         line = line.replace("eqwall twoo", "==")
         line = line.replace("uneqwall twoo", "!=")
         line = line.replace("wisten(", "input(")
-        line = line.replace("stwing(", "str(")
+        line = line.replace("stwing", "str")
         line = line.replace("wandInt(", "random.randint(")
         line = line.replace("spwitwines(", "splitlines(")
         line = line.replace("twu", "True")
         line = line.replace("faws", "False")
+        line = line.replace("fwiwnd(", "find(")
+        line = line.replace("rfwiwnd(", "rfind(")
+        line = line.replace("wepwace(", "replace(")
         line = line.replace("spwit(", "split(")
+        line = line.replace("spwitwines(", "splitlines(")
         line = line.replace("wength(", "len(")
         line = line.replace("wist(", "list(")
         line = line.replace("dwictwonwawy(", "dict(")
         line = line.replace("owe", "or")
         line = line.replace("worw()", "lower()")
         line = line.replace("stwip(", "strip(")
+        line = line.replace("rstwip(", "rstrip(")
+        line = line.replace("lstwip(", "lstrip(")
+        line = line.replace("stwawtswiwth(", "startswith(")
         line = line.replace("iwn", "in")
         line = line.replace("cwontwinwue", "continue")
         line = line.replace("appwewnd(", "append(")
         line = line.replace("bweak", "break")
+        line = line.replace("gwobaw", "global")
+
+        line = line.replace("owpwen(", "open(")
+        line = line.replace("cwowse(", "close(")
+        line = line.replace("wite(", "write(")
 
         if line.find("wistenInt(") != -1:
             beforep = line[0:line.find("wistenInt(")]
             prompt = line[(line.find("wistenInt(")+10):line.rfind(")")]
             line = f"{beforep}int(input({prompt}))"
-
-        if line.find("wite(") != -1:
-            fileName = line[(line.find("wite(")+5):line.find(",")]
-            toWrite = line[(line.find(",")+1):line.rfind(")")]
-            line = f"{line[0: len(line) - len(line.lstrip(' '))]}toWriteTo = open({fileName}, 'wt', encoding='UTF8') \n{line[0: len(line) - len(line.lstrip(' '))]}toWriteTo.write({toWrite}) \n{line[0: len(line) - len(line.lstrip(' '))]}toWriteTo.close()"
 
         if line.find("wead(") != -1:
             fileName = line[(line.find("wead(")+5):line.rfind(")")]
