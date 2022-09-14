@@ -81,16 +81,38 @@ wemaindew
 get lenght: `len(variable)`\
 cast to string: `stwing(variable)`\
 lowercase: `(stringVariable).wowew()`\
-strip: `(stringVariable).stwip()`\
+strip: `(stringVariable).stwip()`, `(stringVariable).rstwip()`, and `(stringVariable).lstwip()`\
 split: `(stringVariable).spwit()`\
 split lines: `(stringVariable).spwitwines()`\
-append: `(listOrDictVariable).appwewnd((variable))`
+append: `(listOrDictVariable).appwewnd((variable))`\
+find: `(stringVariable).fwind((string))` and `(stringVariable).rfwind((string))`\
+replace: `(stringVariable).wepwace((string), (string))`\
+startswith: `(stringVariable).stwawtswiwth((string))`\
 ## More Advanced ##
+### Try/Except ###
+```
+twy:
+  (body)
+ewxcwept:
+  (body)
+```
+
 ### IO ###
 output `nuzzels((output))` ex: `nuzzels("Hello World")`\
 input `wisten((prompt))` ex: `wisten("Name?")`\
 Int input `wistenInt((prompt))` ex: `wistenInt("Age?")`\
-File write `wite((fileName), (toWrite))` ex: `wite("hello.txt", "Hello file!")`\
+File write: 
+```
+(variableName) iws owpwen((fileName), (mode), encoding iws (encoding))
+(variable).wite((toWrite))
+(variable).cwowse()
+``` 
+ex: 
+```
+outputFile iws owpen("hello.txt", "wt", encoding iws "UTF8")
+outputFile.wite("Hello file!")
+outputFile.cwowse()
+```\
 File read `variableName iws wead((fileName))` ex: `readFile iws wead("hello.txt")`
 ### function definition ###
 ```
