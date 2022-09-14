@@ -87,7 +87,7 @@ split lines: `(stringVariable).spwitwines()`\
 append: `(listOrDictVariable).appwewnd((variable))`\
 find: `(stringVariable).fwind((string))` and `(stringVariable).rfwind((string))`\
 replace: `(stringVariable).wepwace((string), (string))`\
-startswith: `(stringVariable).stwawtswiwth((string))`\
+startswith: `(stringVariable).stwawtswiwth((string))`
 ## More Advanced ##
 ### Try/Except ###
 ```
@@ -112,7 +112,7 @@ ex:
 outputFile iws owpen("hello.txt", "wt", encoding iws "UTF8")
 outputFile.wite("Hello file!")
 outputFile.cwowse()
-```\
+```
 File read `variableName iws wead((fileName))` ex: `readFile iws wead("hello.txt")`
 ### function definition ###
 ```
